@@ -4,9 +4,9 @@
 }
 html{
     font-family: "Roboto", serif;
-}
-h1{
-    font-weight: 500
+    background-color: black;
+    color: white;
+
 }
 
 .navbar{
