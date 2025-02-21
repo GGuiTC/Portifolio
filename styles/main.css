@@ -17,15 +17,18 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.navbar img{
-    height: 70%;
-}
-.navbar ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-}
-.navbar ul li{
-    margin-left: 5vw;
+
+    & img{
+        height: 70%;
+    }
+
+    & ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+
+        & li{
+            margin-left: 5vw;
+        }
+    }
 }
