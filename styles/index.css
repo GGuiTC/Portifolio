@@ -1,5 +1,6 @@
 .main-introduction{
     display: flex;
+    background-color: black;
 
     & .photo-me{
         position: relative;
@@ -32,4 +33,14 @@
             font-weight: 100;
         }
     }
+}
+
+.main-about{
+    height: 100vh;
+    background-color: black;
+
+    /* & .title-about{
+        font-size: 20vh;
+        font-weight: 400;
+    } */
 }
